@@ -1,0 +1,266 @@
+
+.for-scroll
+{
+    height: 150vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* position: sticky; */
+}
+::-webkit-scrollbar
+{
+    width:0.3rem;
+    height:3rem;
+}
+::-webkit-scrollbar-track
+{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(158, 150, 150);
+}
+.rightbar
+{
+    flex:3.5;
+    padding:1.3rem 1.3rem 1.3rem 0;
+}
+.birthday-container
+{
+    display: flex;
+    align-items: center;
+}
+.birthday-img
+{
+    width:2.7vw;
+    margin-right: 0.3rem;
+    object-fit: contain;
+}
+.birthday-text
+{
+    font-size: 15px;
+}
+.rightbar-ad
+{
+    width:100%;
+    height:60vh;
+    object-fit: cover;
+    margin: 1rem 0 1rem 0;
+    border-radius: 10px;
+}
+.rightbar-user-title
+{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.rightbar-info-item
+{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    margin-bottom: 1rem;
+    /* flex-direction: column; */
+}
+.rightbarInfo
+{
+    margin-bottom: 1.4rem;
+}
+.rightbar-info-key
+{
+    font-size: 18px;
+    font-weight: 500;
+    color:grey;
+    
+}
+.rightbar-info-value
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+.rightbar-friends-following
+{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    position: relative;
+}
+.rightbar-friends-following::before
+{
+    content:"";
+    width:11vw;
+    height:1.5px;
+    position: absolute;
+    background-color: black;
+    bottom:-9px;
+    transform: translateX(-20%);
+}
+.rightbar-friends-following::after
+{
+    content:"❤";
+    position: absolute;
+    color:red;
+    width:2.4vw;
+    background-color: #fff;
+    bottom:-20px;
+    transform: translateX(-180%);
+}
+.rightbar-followings
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.rightbar-following-friend-img
+{
+    width:5.5rem;
+    height: 5.5rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.rightbar-following-friend
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    /* gap:1rem; */
+   
+}
+.rightbar-following-friend-text
+{
+    color:black;
+}
+.rightbar-follow-btn
+{
+    margin:1.1rem 0 0.7rem 0;
+    border:none;
+    color:white;
+    width:auto;
+    background-color:#172b4d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor:pointer;
+    font-size: 0.8rem;
+    padding:4px 7px;
+
+    border-radius: 5px;
+}
+.meme-heading
+{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgb(43, 40, 40);
+    position: relative;
+}
+.meme-heading::before
+{
+ position: absolute;
+ width:8.1vw;
+ height:2px;
+ content: "";
+ background-color: black;
+ bottom:-6px;
+ transform: translateX(-5%);
+}
+.meme-heading::after
+{
+ position: absolute;
+background-color: #fff;
+ content: "😂";
+ /* padding:0 1px; */
+ color:rgb(73, 212, 31);
+ bottom:-25px;
+ transform: translateX(-240%);
+}
+.no-birthday
+{
+    color:black;
+    font-size: 13px;
+    /* font-weight: 600; */
+}
+@media (max-width:375px)
+{
+    .rightbar {
+        
+        padding: 0rem 1rem 0rem 1rem;
+        
+    }
+    .for-scroll {
+        height:auto;
+ overflow-y: auto;
+        /* scroll-behavior: smooth; */
+    }    
+    .rightbar-user-title {
+       font-size: 19px;
+        margin-bottom: 0.8rem;
+    }
+    .rightbar-info-key {
+        font-size: 15px;
+       
+    }
+    .rightbar-friends-following
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    
+}
+.rightbar-friends-following::before {
+    
+    width: 30vw;
+    height: 1.2px;
+    
+    bottom: -9px;
+    transform: translateX(-12%);
+}
+.rightbar-friends-following::after {
+    
+    width: 2.2vw;
+    
+    bottom: -19px;
+    transform: translateX(-686%);
+}
+.rightbar-following-friend-img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.rightbar-followings {
+   
+    justify-content: center;
+}
+/* .home-rightbar-none
+{
+    display: none;
+    visibility: hidden;
+} */
+.rightbar-following-friend {
+  
+    margin-right: 0.5rem;
+    
+    margin-bottom: 0;
+}
+.birthday-container {
+    margin-top: 1rem;
+    justify-content: center;
+    
+}
+.meme-heading::before {
+   
+    width: 27.1vw;
+    height:1.5px;
+}
+.meme-heading::after {
+    font-size: 15px;
+    bottom:-20px;
+    transform: translateX(-271%);
+}
+.birthday-img {
+    width: 5.7vw;
+   
+}
+
+}

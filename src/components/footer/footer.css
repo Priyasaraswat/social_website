@@ -1,0 +1,10 @@
+#footer 
+{
+    margin-top: 2rem;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background-color: #172b4d;
+    color: #fff;
+    padding:0.2rem;
+}

@@ -1,0 +1,215 @@
+
+*
+{
+    text-decoration: none;
+}
+.topbar
+{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 3px 0;
+    background-color: #172b4d;
+    height:4rem;
+    width:100;
+    position: sticky;
+    top:0;
+    z-index: 9999;
+}
+.topbar-logo-div
+{
+    display: flex;
+    align-items: center;
+}
+.topbar-logo-icon
+{
+    color:#fff;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    transform: scale(1.7);
+}
+.topbar-logo
+{
+    /* margin-left: 2rem; */
+    color:#fff;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.topbar-left
+{
+    flex: 3;
+}
+
+.topbar-right
+{
+    flex: 2;
+}
+.searchbar
+{
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    background-color: #fff;
+    padding:6px;
+}
+.search-icon
+{
+    /* color:#fff; */
+    font-size: 1rem;
+}
+.searchInput
+{
+    width: 88%;
+    border:none;
+    
+    font-size: 15px;
+}
+.searchInput:focus
+{
+    outline: none;
+}
+
+.topbar-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbarLinks
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding:5px 0px;
+    margin: 0 2rem;
+    flex: 5;
+   
+    
+   
+}
+.topbar-menu-icon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+  
+   
+}
+.profile-topbar-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .topbarLink
+{
+   /* margin-left: 1.4rem; */
+   transform: scale(1.2);
+   cursor: pointer;
+   color: #fff;
+  
+}
+.topbarLink-text
+{
+    font-size: 12px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.topbar-dp-img
+{
+    width:1.3rem;
+    height:1.3rem;
+    margin: 0.3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.menu-hamburger-icon
+{
+    color:white;
+    font-size: 2rem;
+    display: none;
+}
+.topbarLinksmenu
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding:5px 0px;
+    margin: 0 2rem;
+    flex: 5;
+}
+.topbarLink-text:hover
+{
+    color:#49f583 ;
+    font-size: 12.2px;
+}
+@media (max-width:375px)
+{
+    .topbar-logo {
+        margin-left: 0.3rem;
+        
+        font-size: 1rem;
+        
+       
+    }
+    .topbar-dp-img {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-right: 0rem;
+       
+    }
+    .topbarLinksmenu
+    {
+        display:none;
+    }
+    .topbarLinks{
+        flex-flow: column nowrap;
+        background-color: black;
+        position:fixed;
+        top:0;
+        right:0;
+        height:92vh;
+        width:400px;
+        color:white;
+        margin:3rem 0 0 0;
+        padding:1rem 0;
+    }
+    .topbarLink-text {
+        font-size: 14px;
+        color: #fff;
+    }
+    .topbar-profile-icon {
+        margin-right: 0px;
+    }
+    .topbar-right {
+        display: block;
+        
+        
+    }
+    .menu-hamburger-icon {
+        color: white;
+        font-size: 1.5rem;
+        display: block;
+        margin-left: 6rem;
+    }
+    .topbar {
+        
+        background-color: #172b4d;
+        height: 3rem;
+        
+    }
+    .topbar-logo-icon {
+        color: #fff;
+        margin-left: 1.3rem;
+        margin-right: 0.2rem;
+        transform: scale(1.4);
+    }
+}

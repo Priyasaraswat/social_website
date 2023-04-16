@@ -1,0 +1,30 @@
+.meme-container
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.8rem;
+    
+}
+.meme-img
+{   border: 0.5px solid #000;
+    width:25vw;
+    object-fit: contain;
+    border-radius: 10px;
+}
+@media(max-width:375px)
+{
+    .meme-div
+    {
+        margin:auto;
+        width:80%;
+    }
+    
+    .meme-img
+{
+    width:50vw;
+    
+}
+    
+}

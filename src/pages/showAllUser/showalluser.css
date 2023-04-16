@@ -1,0 +1,83 @@
+.show-users-img
+{
+    object-fit: cover;
+    width:2rem;
+    height:2rem;
+    border-radius: 50%; 
+}
+.showAllUser
+{
+    width:100%;
+    height:100vh;
+    
+}
+.show-users-table
+{
+   margin:2rem auto;
+   width:45%;
+   height:auto;
+   border:1px solid #bdc3c7;
+   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2) ;
+   
+}
+.show-table-heading
+{
+    background-color:#49f583;
+    color: #000;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+tr:hover
+{
+    transition: all 0.2s ease-in;
+    
+}
+.show-users-img
+{
+    cursor: pointer;
+}
+th,td
+{
+  padding:7px;
+  text-align: left;
+  
+  border-bottom: 1px solid #fff;
+}
+.show-user-data-table:hover
+{
+    background-color: #f5f5f5;
+    transform: scale(1.04);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1),-1px -1px 8px rgba(0, 0, 0, 0.1) ;
+    
+}
+@media (max-width:375px)
+{
+    .showAllUser
+{
+    width:100%;
+    height:auto;
+    margin: 1rem auto;
+    
+}
+.show-users-table {
+    margin: 1rem auto;
+    width: 50%;
+   
+}
+.show-users-img {
+    
+    width: 1.5rem;
+    height: 1.5rem;
+   
+}
+th,td
+{
+  padding:5px;
+ 
+}
+.show-users-name
+{
+    font-size: 15px;
+}
+}

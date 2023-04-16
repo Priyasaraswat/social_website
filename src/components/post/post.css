@@ -1,0 +1,151 @@
+.post
+{
+    width:100%;
+    padding:0.8rem;
+    border-radius: 10px;
+    /* background-color: rebeccapurple; */
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin-top: 0.9rem;
+}
+.post-top
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.post-top-left
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.post-caption
+{
+    margin-top:0.9rem;
+}
+.post-user-img
+{
+    width:2.5rem;
+    height:2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.post-user-name
+{
+    font-size: 15px;
+    margin-left: 0.4rem;
+}
+
+.post-top-right
+{
+    display: flex;
+    align-items: center;
+    
+}
+.share-icon
+{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+.delete-post-icon
+{
+  
+   
+   display:none;
+}
+.active-icon
+{
+    display:flex;
+    align-items: center;
+    padding:2px 6px;
+   border-radius:2px;
+   background-color:#172b4d;
+   color:#fff;
+   border:1.5px solid #C7BEBE;
+   border-bottom-width: 2px;
+   font-size: 15px;
+   cursor: pointer;
+}
+.post-time
+{
+    font-size: 12px;
+    margin-left: 0.5rem;
+}
+.post-img
+{
+    margin-top: 1rem;
+    object-fit: contain;
+    width:100%;
+    max-height:28rem;
+    margin-bottom: 0.7rem;
+}
+.post-like
+{
+    width:33px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.post-heart
+{
+    width:50px;
+    cursor: pointer;
+}
+.post-bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-bottom-left
+{
+    display: flex;
+    align-items: center;
+}
+.post-like-text
+{
+    font-size: 14px;
+}
+.post-bottom-comment
+{
+    font-size: 14px;
+    cursor: pointer;
+}
+@media(max-width:375px)
+{
+    .post {
+        
+        padding: 0.5rem;
+      
+        margin-top: 0.9rem;
+    }
+    .post-user-img {
+        width: 1.5rem;
+        height: 1.5rem;
+        
+    }
+    .post-img {
+        margin-top: 0.5rem;
+        object-fit: contain;
+        width: 100%;
+        max-height: 27rem;
+        margin-bottom: 0.5rem;
+    }
+    .post-like {
+        width: 27px;
+        
+    }
+    .post-heart {
+        width: 42px;
+        cursor: pointer;
+    }
+    .post-time {
+        font-size: 11px;
+       
+    }
+    .post-user-name {
+        font-size: 16px;
+        
+    }
+}

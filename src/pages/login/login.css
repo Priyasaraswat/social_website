@@ -1,0 +1,134 @@
+body
+{
+    background-color: #f3efe9;
+}
+.login
+{
+    margin:10vh auto;
+    width:60%;
+    /* height:70%; */
+    /* background-color: lightcyan; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.login-top
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-title
+{
+    color:#0047AB;
+    font-size: 40px;
+}
+.login-desc
+{
+    color:rgb(189, 189, 189);
+    margin-top: 0.3rem;
+    font-size: 17px;
+}
+.login-bottom
+{
+    margin:5rem auto;
+    width:80%;
+    /* height:700px; */
+    /* background-color: blueviolet; */
+}
+.login-box
+{
+    margin: auto;
+    width:60%;
+    padding:4rem 3rem 4rem 3rem;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: white;
+}
+.input-data
+{
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding:5px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.input-data:focus
+{
+    outline: none;
+}
+
+.login-btn
+{
+    padding:6px;
+    /* margin-left: 8rem; */
+    font-size: 16px;
+    border: none;
+    background-color: #0047AB;
+    color:white;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+     height: 5vh;
+}
+.login-btn:disabled
+{
+    cursor: not-allowed;
+}
+.login-register-btn
+{
+    padding:7px;
+    /* margin-left: 8rem; */
+    font-size: 16px;
+    border: none;
+    background-color: #40E0D0;
+    color:white;
+    /* width: 100%; */
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.login-bottom-bottom
+{
+    width:50%;
+   display: flex;
+   flex-direction: column;
+   gap:0.3rem;
+   align-items: center;
+
+   margin: auto;
+}
+.login-forgot-pass
+{
+    font-size: 15px;
+    
+}
+@media (max-width:375px)
+{
+    .login-title 
+    {
+        font-size: 26px;
+    }
+    .login-desc {
+        font-size: 14px;
+        margin-top: 1.1rem;
+        text-align: center;
+    }
+    .login-bottom {
+        margin: 3rem auto;
+        width: 100%;
+    }
+    .login {
+       
+        width: 93%;
+    }
+    .login-box {
+        
+    
+        padding: 2rem 1rem;
+        width: 70%;
+    }
+
+}

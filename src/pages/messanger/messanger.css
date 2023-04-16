@@ -1,0 +1,164 @@
+
+::-webkit-scrollbar
+{
+    width:0.3rem;
+    height:3rem;
+}
+::-webkit-scrollbar-track
+{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(158, 150, 150);
+}
+.messanger
+{
+    height: calc(100vh - 3rem);
+    display:flex;
+    width:100%;
+    
+    
+}
+.chat-menu
+{
+    flex:2.5;
+    /* width:30%; */
+   
+}
+.chat-box
+{
+    flex:5;
+    /* width:30%; */
+   
+}
+.chat-online
+{
+    flex:2.5;
+    /* width:20%; */
+    
+}
+.chat-menu-wrapper,.chat-box-wrapper,.chat-online-wrapper
+{
+ padding:1rem;
+ height:100%;
+ /* width:30%;
+ display: inline-block; */
+}
+/* .chat-menu-input
+{
+    border:none;
+    padding:7px 5px ;
+    width:90%;
+    background-color: #f3efe9 ;
+    font-size: 0.9rem;
+    border-bottom: 1px solid grey;
+} */
+/* .chat-menu-input:focus
+{
+    outline:none;
+} */
+.messanger-heading
+{
+    font-size: 18px;
+    color:#333;
+    margin-bottom: 1rem;
+}
+.chat-box-bottom
+{
+    margin-top: 1rem;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+.chat-box-bottom-msg
+{
+    width:90%;
+    height: auto;
+    padding:7px;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    word-wrap: break-word;
+}
+.chat-box-bottom-msg:focus
+{
+    outline:none;
+}
+.chat-box-send
+{
+    padding:10px;
+    cursor:pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color:white;
+    font-size: 0.9rem;
+}
+.chat-box-wrapper
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.chat-box-top
+{
+    padding-right:9px;
+    overflow-y: scroll;
+    height: 100%;
+
+}
+.chat-box-no-chat
+{
+ top:10%;
+ font-size: 60px;
+ color:lightgray;
+ position: absolute;
+ padding:1rem 2rem;
+}
+@media only screen and (max-width:375px)
+{
+    .messanger
+{
+    
+    flex-direction: column;
+    
+}
+.conversations-img {
+    width: 1.5rem;
+    height: 1.5rem;
+   
+}
+.chat-box-no-chat {
+    top: 8%;
+    font-size: 30px;
+    color: lightgray;
+    position: absolute;
+    padding: 1rem 2rem;
+}
+.message-top-img-text {
+    padding: 10px;
+    
+    max-width: 40vw;
+  
+    border-radius: 15px;
+    word-wrap: break-word;
+}
+.message-top-img {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    margin-right: 0.7rem;
+}
+.chat-online-badge {
+   
+    width: 3.8vw;
+    height: 1.7vh;
+  
+    right: -4px;
+}
+.chat-box-top {
+    padding-right: 2px;
+   
+}
+}

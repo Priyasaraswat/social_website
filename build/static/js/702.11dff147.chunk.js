@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_social=self.webpackChunkreact_social||[]).push([[702],{9702:function(e,r,t){t.r(r),t.d(r,{default:function(){return c}});t(2791);var a=t(184),c=function(){return(0,a.jsx)("div",{id:"footer",children:(0,a.jsx)("p",{children:"Developed by Priya Saraswat | \xa92022 All Rights Reserved"})})}}}]);
+//# sourceMappingURL=702.11dff147.chunk.js.map

@@ -1,0 +1,13 @@
+.centerbar
+{
+    flex:5.5;
+    padding:1.4rem;
+}
+@media (max-width:375px)
+{
+    .centerbar
+{
+    
+    padding:1rem;
+}
+}
